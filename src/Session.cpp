@@ -143,7 +143,7 @@ void Session::received_packet() {
         std::cout << final << std::endl;
         for (const auto& pair: server_.clients_) {
             if (pair.second->id_ == id_) continue;
-            pair.second->send_packet(5, final.data(), send_as_name.size());
+            pair.second->send_packet(5, final.data(), final.size());
         }
     }
 }
