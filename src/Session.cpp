@@ -1,5 +1,5 @@
 //
-// Created by richard on 23/06/2026.
+// Created by Xoroshio on 23/06/2026.
 //
 
 #include "Session.h"

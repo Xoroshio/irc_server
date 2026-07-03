@@ -1,5 +1,5 @@
 //
-// Created by richard on 26/06/2026.
+// Created by Xoroshio on 26/06/2026.
 //
 
 #ifndef IRC_SERVER_UTILS_H

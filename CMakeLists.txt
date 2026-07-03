@@ -18,7 +18,8 @@ add_executable(irc_server main.cpp
         src/Session.h
         src/Server.cpp
         src/Server.h
-        src/utils.h)
+        src/utils.h
+)
 
 set(PATH_TO_LIBSSL ${CMAKE_CURRENT_SOURCE_DIR}/include/libssl.lib)
 set(PATH_TO_LIBCRYPTO ${CMAKE_CURRENT_SOURCE_DIR}/include/libcrypto.lib)
